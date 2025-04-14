@@ -1,0 +1,100 @@
+
+
+
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>Login | PIPS College Abbottabad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: red;
+        }
+        
+        header {
+            background-color:grey;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Login | PIPS College Abbottabad</h1>
+    </header>
+     <nav>
+        <a href="home.html">home</a>
+        <a href="pips contact us .html">Contact Us</a>
+        <a href="about pips .html">About Us</a>
+        <a href="form5.html" > form</a>
+    </nav>
+    <main>
+        <section>
+            <h1>Login to Your Account</h1>
+            <form action="login.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
